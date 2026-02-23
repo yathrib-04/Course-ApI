@@ -181,7 +181,6 @@ Delete a course.
 ```json
 {
   "message": "Course deleted successfully"
-}"
 }
 ```
 
