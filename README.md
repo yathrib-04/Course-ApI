@@ -47,7 +47,7 @@ src/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repository-link>
+git clone <https://github.com/yathrib-04/Course-ApI>
 cd course-api
 ```
 
