@@ -27,18 +27,7 @@ This project demonstrates clean architecture, DTO validation, and proper HTTP st
 
 ---
 
-## 📂 Project Structure
 
-```
-src/
- ├── app.module.ts
- └── courses/
-      ├── dto/
-      │   └── create-course.dto.ts
-      ├── courses.controller.ts
-      ├── courses.service.ts
-      └── courses.module.ts
-```
 
 ---
 
