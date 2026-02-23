@@ -19,7 +19,6 @@ This project demonstrates clean architecture, DTO validation, and proper HTTP st
 
 ## 🛠 Tech Stack
 
-* **Node.js**
 * **NestJS**
 * **TypeScript**
 * **class-validator**
@@ -163,7 +162,7 @@ Update an existing course (partial or full)
   "level": "Intermidiate",
   "duration": "4 weeks"
 }
-
+```
 **Response — 404 Not Found**
 
 ```json
@@ -172,8 +171,7 @@ Update an existing course (partial or full)
   "message": "Course not found"
 }
 
----
-
+```
 ### 🔹DELETE /courses/:id
 
 Delete a course.
