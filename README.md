@@ -142,9 +142,60 @@ Creates a new course.
   "duration": "4 weeks"
 }
 ```
+### 🔹 PUT /courses/:id
 
-**Response — 400 Bad Request**
-Returned when required fields are missing or empty.
+Update an existing course (partial or full)
+**Request Body**
+
+```json
+{
+  "title": " Advanced Data Structure and algorithm",
+  
+}
+```
+
+**Response — 201 Created**
+
+```json
+{
+  "id": 1,
+  "title": " Advanced Data Structure and algorithm",
+  "level": "Intermidiate",
+  "duration": "4 weeks"
+}
+
+**Response — 404 Not Found**
+
+```json
+{
+  "statusCode": 404,
+  "message": "Course not found"
+}
+
+---
+
+### 🔹DELETE /courses/:id
+
+Delete a course.
+
+**Response — 200 OK**
+
+```json
+{
+  "message": "Course deleted successfully"
+}"
+}
+```
+
+**Response — 404 Not Found**
+
+```json
+{
+  "statusCode": 404,
+  "message": "Course not found"
+}
+```
+
 
 ---
 
